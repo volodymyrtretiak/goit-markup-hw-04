@@ -51,6 +51,7 @@ button {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  margin-right: 76px;
 }
 
 .logo-part {
@@ -74,10 +75,6 @@ button {
 .page-nav {
   display: flex;
   align-items: center;
-}
-
-.logo {
-  margin-right: 76px;
 }
 
 .menu-list {
@@ -145,10 +142,7 @@ button {
   max-width: 1440px;
   margin: 0 auto;
   background-image:
-    linear-gradient(
-      rgba(46, 47, 66, 0.7),
-      rgba(46, 47, 66, 0.7)
-    ),
+    linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
     url("../images/people-office.jpg");
   background-repeat: no-repeat;
   background-position: center;
@@ -214,6 +208,12 @@ button {
   align-items: center;
   justify-content: center;
   margin-bottom: 8px;
+}
+
+.features-icon {
+  width: 64px;
+  height: 64px;
+  object-fit: contain;
 }
 
 .features-subtitle,
